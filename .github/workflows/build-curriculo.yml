@@ -1,0 +1,29 @@
+name: Build curriculo
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install pandoc
+        run: sudo apt-get update && sudo apt-get install -y pandoc texlive-xetex
+
+      - name: Build PDF
+        run: |
+          mkdir -p dist
+          pandoc curriculo.md -o dist/curriculo-flavio-dias.pdf --pdf-engine=xelatex
+          pandoc curriculo.md -o dist/curriculo-flavio-dias.html --standalone
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: curriculo-flavio-dias
+          path: dist/
+
