@@ -10,7 +10,7 @@ Repositorio fonte do curriculo profissional de Flavio Dias.
 
 ## Perfil central
 
-Analista de Sistemas com forte atuacao em ERP TOTVS Protheus, ADVPL/TLPP, integracoes corporativas, automacao de processos, APIs, bancos de dados, n8n, infraestrutura Docker/Cloudflare e inteligencia artificial aplicada a negocios.
+Arquiteto de Transformacao Digital com forte atuacao em ERP TOTVS Protheus, ADVPL/TLPP, integracoes corporativas, automacao de processos, APIs, dados, BI, n8n, infraestrutura Docker/Cloudflare e inteligencia artificial aplicada a negocios.
 
 ## Como usar
 
@@ -23,3 +23,6 @@ git commit -m "docs(curriculo): atualizar perfil profissional"
 
 Quando o repositorio for publicado no GitHub, o GitHub Actions podera gerar artefatos em PDF/HTML a partir dos arquivos Markdown.
 
+## Fontes
+
+Veja [docs/fontes.md](docs/fontes.md).

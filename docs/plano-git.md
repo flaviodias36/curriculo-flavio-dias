@@ -32,4 +32,4 @@ Quando autorizado:
 - Nao publicar telefone e e-mail em repositorio publico sem decisao consciente.
 - Para versao publica, considerar substituir telefone por LinkedIn e e-mail profissional.
 - Manter versoes direcionadas por vaga/objetivo.
-
+- Revisar datas sobreposicionadas na GEES antes da versao publica, pois ha periodo em paralelo entre Coordenador e Gerente.
